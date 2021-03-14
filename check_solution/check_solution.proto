@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package check_solution;
+
+service gradingService {
+    rpc Grading(GradingRequest) returns (GradingResponse);
+}
+
+message GradingRequest {
+   repeated File files = 1;
+   Payload payload = 2;
+
+}
+
+message File {
+   string label = 1;
+   string filename = 2;
+}
+
+
+message Payload {
+    string container = 1;
+    string partId = 2;
+
+}
+
+message GradingResponse {
+    enum Status {
+        OK = 0;
+        FAIL = 1;
+    }
+    Status status = 1;
+    string description = 2;
+}
+
+
+
+
+
+
+
