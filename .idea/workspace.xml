@@ -36,13 +36,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="10" />
+          <entry key="go" value="14" />
           <entry key="proto" value="460" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="10" />
+          <entry key="Go" value="14" />
           <entry key="PROTO" value="460" />
         </counts>
       </usages-collector>
@@ -51,7 +51,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.proto">
+        <entry file="file://$PROJECT_DIR$/send_solution/send_solution.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
               <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
@@ -59,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_solution/check_solution.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
@@ -68,8 +68,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.pb.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/send_solution/send_solution.pb.go">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="26" selection-start-column="21" selection-end-column="34" />
@@ -80,15 +80,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_solution/generate.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="148" selection-start-line="7" selection-start-column="148" selection-end-line="7" selection-end-column="148" />
+            <state relative-caret-position="58">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_solution/check_solution.pb.go">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -131,7 +135,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="178" />
     <option name="y" value="52" />
     <option name="width" value="1400" />
@@ -151,16 +155,6 @@
               <item name="grader_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="grader_api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="grader_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grader_api" type="462c0819:PsiDirectoryNode" />
-              <item name="check_solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grader_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grader_api" type="462c0819:PsiDirectoryNode" />
-              <item name="queue_processor" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,6 +165,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -196,9 +191,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26848248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26848248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,7 +207,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -228,13 +224,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.proto.go" />
     <entry file="file://$PROJECT_DIR$/queue_processor/generate.go" />
-    <entry file="file://$PROJECT_DIR$/check_solution/generate.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="148" selection-start-line="7" selection-start-column="148" selection-end-line="7" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check_solution/check_solution.pb.micro.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2291">
@@ -242,14 +231,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.pb.go">
+    <entry file="file://$PROJECT_DIR$/check_solution/check_solution.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="21" selection-end-column="34" />
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.proto">
+    <entry file="file://$PROJECT_DIR$/send_solution/send_solution.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
@@ -257,12 +246,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/check_solution/check_solution.pb.go">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_solution/check_solution.proto">
+    <entry file="file://$PROJECT_DIR$/check_solution/generate.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/send_solution/send_solution.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
