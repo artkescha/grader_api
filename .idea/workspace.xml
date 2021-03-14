@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df587eea-5061-405d-9c1f-e102b13aefd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/check_solution/check_solution.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/check_solution/check_solution.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="58">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -92,7 +91,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_solution/check_solution.pb.micro.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2291">
@@ -132,7 +131,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="178" />
     <option name="y" value="52" />
     <option name="width" value="1400" />
@@ -151,6 +150,16 @@
             <path>
               <item name="grader_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="grader_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grader_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grader_api" type="462c0819:PsiDirectoryNode" />
+              <item name="check_solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grader_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grader_api" type="462c0819:PsiDirectoryNode" />
+              <item name="queue_processor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,9 +196,9 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26848248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26848248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,7 +211,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -219,17 +228,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.proto.go" />
     <entry file="file://$PROJECT_DIR$/queue_processor/generate.go" />
-    <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.proto">
+    <entry file="file://$PROJECT_DIR$/check_solution/generate.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="203">
+          <caret line="7" column="148" selection-start-line="7" selection-start-column="148" selection-end-line="7" selection-end-column="148" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_solution/check_solution.proto">
+    <entry file="file://$PROJECT_DIR$/check_solution/check_solution.pb.micro.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="2291">
+          <caret line="90" column="38" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="108" />
         </state>
       </provider>
     </entry>
@@ -240,20 +249,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_solution/generate.go">
+    <entry file="file://$PROJECT_DIR$/queue_processor/send_solution.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="148" selection-start-line="7" selection-start-column="148" selection-end-line="7" selection-end-column="148" />
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/check_solution/check_solution.pb.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_solution/check_solution.pb.micro.go">
+    <entry file="file://$PROJECT_DIR$/check_solution/check_solution.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2291">
-          <caret line="90" column="38" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="108" />
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
