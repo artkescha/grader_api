@@ -21,7 +21,7 @@ message File {
 message Payload {
     string container = 1;
     string partId = 2;
-
+    int64 taskId = 3;
 }
 
 message GradingResponse {
