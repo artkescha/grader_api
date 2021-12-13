@@ -5,7 +5,7 @@ option go_package = "./send_solution";
 package send_solution;
 
 
-    message Try {
+message Try {
    uint64 id = 6;
    uint64 user_id = 1;
    string solution = 2;
